@@ -29,10 +29,27 @@
 		230BAD98152BBDB300CE26EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230BAD97152BBDB300CE26EC /* UIKit.framework */; };
 		230BAD99152BBE3200CE26EC /* JBDeviceOwner.h in Headers */ = {isa = PBXBuildFile; fileRef = 230BAD8B152BBBE400CE26EC /* JBDeviceOwner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		230BADE5152BD00D00CE26EC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230BADE4152BD00D00CE26EC /* AddressBook.framework */; };
+		F2BDB639155AD9DE004DA59D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230BAD97152BBDB300CE26EC /* UIKit.framework */; };
+		F2BDB63A155AD9DE004DA59D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230BAD86152BBBE400CE26EC /* Foundation.framework */; };
+		F2BDB63C155AD9DE004DA59D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BDB63B155AD9DE004DA59D /* CoreGraphics.framework */; };
+		F2BDB642155AD9DE004DA59D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2BDB640155AD9DE004DA59D /* InfoPlist.strings */; };
+		F2BDB644155AD9DE004DA59D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BDB643155AD9DE004DA59D /* main.m */; };
+		F2BDB648155AD9DE004DA59D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BDB647155AD9DE004DA59D /* AppDelegate.m */; };
+		F2BDB655155AD9EF004DA59D /* libJBDeviceOwner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 230BAD83152BBBE400CE26EC /* libJBDeviceOwner.a */; };
+		F2BDB658155ADA35004DA59D /* OwnerInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BDB656155ADA35004DA59D /* OwnerInfoViewController.h */; };
+		F2BDB659155ADA35004DA59D /* OwnerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BDB657155ADA35004DA59D /* OwnerInfoViewController.m */; };
+		F2BDB65A155ADC8E004DA59D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230BADE4152BD00D00CE26EC /* AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		230BADA3152BC03300CE26EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 230BAD7A152BBBE400CE26EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230BAD82152BBBE400CE26EC;
+			remoteInfo = JBDeviceOwner;
+		};
+		F2BDB653155AD9E8004DA59D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 230BAD7A152BBBE400CE26EC /* Project object */;
 			proxyType = 1;
@@ -51,6 +68,16 @@
 		230BAD94152BBC6500CE26EC /* UIDevice+JBDeviceOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+JBDeviceOwner.m"; sourceTree = "<group>"; };
 		230BAD97152BBDB300CE26EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		230BADE4152BD00D00CE26EC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F2BDB637155AD9DD004DA59D /* JBDeviceOwnerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBDeviceOwnerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BDB63B155AD9DE004DA59D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2BDB63F155AD9DE004DA59D /* JBDeviceOwnerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JBDeviceOwnerDemo-Info.plist"; sourceTree = "<group>"; };
+		F2BDB641155AD9DE004DA59D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2BDB643155AD9DE004DA59D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2BDB645155AD9DE004DA59D /* JBDeviceOwnerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JBDeviceOwnerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F2BDB646155AD9DE004DA59D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2BDB647155AD9DE004DA59D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2BDB656155ADA35004DA59D /* OwnerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnerInfoViewController.h; sourceTree = "<group>"; };
+		F2BDB657155ADA35004DA59D /* OwnerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnerInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +91,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2BDB634155AD9DD004DA59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BDB65A155ADC8E004DA59D /* AddressBook.framework in Frameworks */,
+				F2BDB655155AD9EF004DA59D /* libJBDeviceOwner.a in Frameworks */,
+				F2BDB639155AD9DE004DA59D /* UIKit.framework in Frameworks */,
+				F2BDB63A155AD9DE004DA59D /* Foundation.framework in Frameworks */,
+				F2BDB63C155AD9DE004DA59D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -71,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				230BAD88152BBBE400CE26EC /* JBDeviceOwner */,
+				F2BDB63D155AD9DE004DA59D /* JBDeviceOwnerDemo */,
 				230BAD85152BBBE400CE26EC /* Frameworks */,
 				230BAD84152BBBE400CE26EC /* Products */,
 			);
@@ -80,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				230BAD83152BBBE400CE26EC /* libJBDeviceOwner.a */,
+				F2BDB637155AD9DD004DA59D /* JBDeviceOwnerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +131,7 @@
 				230BADE4152BD00D00CE26EC /* AddressBook.framework */,
 				230BAD97152BBDB300CE26EC /* UIKit.framework */,
 				230BAD86152BBBE400CE26EC /* Foundation.framework */,
+				F2BDB63B155AD9DE004DA59D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,6 +156,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F2BDB63D155AD9DE004DA59D /* JBDeviceOwnerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F2BDB646155AD9DE004DA59D /* AppDelegate.h */,
+				F2BDB647155AD9DE004DA59D /* AppDelegate.m */,
+				F2BDB63E155AD9DE004DA59D /* Supporting Files */,
+				F2BDB656155ADA35004DA59D /* OwnerInfoViewController.h */,
+				F2BDB657155ADA35004DA59D /* OwnerInfoViewController.m */,
+			);
+			path = JBDeviceOwnerDemo;
+			sourceTree = "<group>";
+		};
+		F2BDB63E155AD9DE004DA59D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2BDB63F155AD9DE004DA59D /* JBDeviceOwnerDemo-Info.plist */,
+				F2BDB640155AD9DE004DA59D /* InfoPlist.strings */,
+				F2BDB643155AD9DE004DA59D /* main.m */,
+				F2BDB645155AD9DE004DA59D /* JBDeviceOwnerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -123,6 +188,7 @@
 			files = (
 				230BAD95152BBC6500CE26EC /* UIDevice+JBDeviceOwner.h in Headers */,
 				230BAD99152BBE3200CE26EC /* JBDeviceOwner.h in Headers */,
+				F2BDB658155ADA35004DA59D /* OwnerInfoViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +213,24 @@
 			productReference = 230BAD83152BBBE400CE26EC /* libJBDeviceOwner.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		F2BDB636155AD9DD004DA59D /* JBDeviceOwnerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BDB651155AD9DE004DA59D /* Build configuration list for PBXNativeTarget "JBDeviceOwnerDemo" */;
+			buildPhases = (
+				F2BDB633155AD9DD004DA59D /* Sources */,
+				F2BDB634155AD9DD004DA59D /* Frameworks */,
+				F2BDB635155AD9DD004DA59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2BDB654155AD9E8004DA59D /* PBXTargetDependency */,
+			);
+			name = JBDeviceOwnerDemo;
+			productName = JBDeviceOwnerDemo;
+			productReference = F2BDB637155AD9DD004DA59D /* JBDeviceOwnerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,11 +252,23 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				F2BDB636155AD9DD004DA59D /* JBDeviceOwnerDemo */,
 				230BAD82152BBBE400CE26EC /* JBDeviceOwner */,
 				230BAD9F152BC01E00CE26EC /* Framework */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2BDB635155AD9DD004DA59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BDB642155AD9DE004DA59D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		230BAD9E152BBF2700CE26EC /* Prepare Framework */ = {
@@ -212,6 +308,16 @@
 			files = (
 				230BAD8D152BBBE400CE26EC /* JBDeviceOwner.m in Sources */,
 				230BAD96152BBC6500CE26EC /* UIDevice+JBDeviceOwner.m in Sources */,
+				F2BDB659155ADA35004DA59D /* OwnerInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BDB633155AD9DD004DA59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BDB644155AD9DE004DA59D /* main.m in Sources */,
+				F2BDB648155AD9DE004DA59D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +329,23 @@
 			target = 230BAD82152BBBE400CE26EC /* JBDeviceOwner */;
 			targetProxy = 230BADA3152BC03300CE26EC /* PBXContainerItemProxy */;
 		};
+		F2BDB654155AD9E8004DA59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 230BAD82152BBBE400CE26EC /* JBDeviceOwner */;
+			targetProxy = F2BDB653155AD9E8004DA59D /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2BDB640155AD9DE004DA59D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BDB641155AD9DE004DA59D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		230BAD8E152BBBE400CE26EC /* Debug */ = {
@@ -318,6 +440,35 @@
 			};
 			name = Release;
 		};
+		F2BDB64F155AD9DE004DA59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JBDeviceOwnerDemo/JBDeviceOwnerDemo-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "JBDeviceOwnerDemo/JBDeviceOwnerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2BDB650155AD9DE004DA59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JBDeviceOwnerDemo/JBDeviceOwnerDemo-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "JBDeviceOwnerDemo/JBDeviceOwnerDemo-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -347,6 +498,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F2BDB651155AD9DE004DA59D /* Build configuration list for PBXNativeTarget "JBDeviceOwnerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BDB64F155AD9DE004DA59D /* Debug */,
+				F2BDB650155AD9DE004DA59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
